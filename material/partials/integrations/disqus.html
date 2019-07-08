@@ -33,4 +33,12 @@
   })
   gitalk.render('gitalk-container')
 </script>
+
+<!-- tip for comment -->
+<script>
+  window.onload=function(){
+    document.getElementsByClassName("gt-header-textarea")[0].setAttribute("placeholder","我们鼓励在讨论区讨论有意义的内容及勘误，无意义的评论将会被管理员删除");
+  }
+</script>
+
 {% endif %}
